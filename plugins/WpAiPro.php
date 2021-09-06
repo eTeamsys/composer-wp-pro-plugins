@@ -57,7 +57,8 @@ class WpAiPro {
 				default:
 					$name = 'WP All Export';
 			}
-
+			
+			
 		} else {
 			$license = getenv( 'WP_ALL_IMPORT_PRO_KEY' );
 			$url     = getenv( 'WP_ALL_IMPORT_PRO_URL' );
